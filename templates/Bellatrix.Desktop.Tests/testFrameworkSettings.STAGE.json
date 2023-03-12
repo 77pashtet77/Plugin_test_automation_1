@@ -9,8 +9,8 @@
       "elementWaitTimeout": "30",
       "sleepInterval": "1",
       "validationsTimeout": "30",
-      "createSessionTimeout": "10",
-      "waitForAppLaunchTimeout": "10",
+      "createSessionTimeout": "30",
+      "waitForAppLaunchTimeout": "30",
       "elementToBeVisibleTimeout": "30",
       "elementToExistTimeout": "30",
       "elementToNotExistTimeout": "30",
@@ -20,10 +20,10 @@
     },
     "executionSettings": {
       "defaultLifeCycle": "restart every time",
-      "shouldStartLocalService": "false",
+      "shouldStartLocalService": "true",
       "resolution": "",
       "defaultAppPath": "AssemblyFolder\\Demos\\Wpf\\WPFSampleApp.exe",
-      "url": "http://127.0.0.1:4722",
+      "url": "http://127.0.0.1:4723",
       "arguments": [
         {
           //"name": "{runName}",
